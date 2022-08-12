@@ -11,16 +11,16 @@ This document will help you create and use a reverse-proxy container to  server 
 2) open the httpd.conf file and edit the virtualhost config as show below
 
 <VirtualHost *:80>
-    ServerName www.example.co.in                     # Replace example.co.in with URL on which the site as to be hosted
+    ServerName www.example.co.in     # Replace example.co.in with URL on which the site as to be hosted
     DocumentRoot "/usr/local/apache2"
     ServerSignature off
     ProxyPreserveHost On
     ProxyRequests Off
     TimeOut 300
     ProxyTimeout 300
-    ProxyPass / http://IP:3000/              #Replace IP with docker container IP of nextjs or react container. U can also use container name instead of IP
+    ProxyPass / http://IP:3000/       #Replace IP with docker container IP of nextjs or react container. U can also use container name instead of IP
     ProxyPassReverse / http://IP:3000/
-
+    
 </VirtualHost>
 
 
