@@ -30,7 +30,7 @@ docker build -t (name of image)  -f Dockerfile2 .
 
 4) Now run the container 
 
-docker container run  --name <ContainerName>  -d --network localnetwork -p 8088:80 rajesh054/httpd-proxy
+docker container run  --name (ContainerName)  -d --network localnetwork -p 8088:80 rajesh054/httpd-proxy
 
 
 Note: In the above command we used a custom bridge network , Advantage of using a custom bridge network is that, all container can recogine themselve with there container name (DNS). It helps in giving DNS or Container Name in proxy url instead of IP.
