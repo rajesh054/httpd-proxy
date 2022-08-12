@@ -26,7 +26,7 @@ Save the file
 
 3) Build a docker Image using the docker file given in repository
 
-docker build -t <name of image>  -f Dockerfile2 .
+docker build -t (name of image)  -f Dockerfile2 .
 
 4) Now run the container 
 
