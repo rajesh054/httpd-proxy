@@ -22,7 +22,6 @@ This document will help you create and use a reverse-proxy container to  server 
     
 </VirtualHost>
 
-
 Save the file 
 
 3) Build a docker Image using the docker file given in repository
