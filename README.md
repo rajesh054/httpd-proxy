@@ -37,3 +37,5 @@ Note: In the above command we used a custom bridge network , Advantage of using 
 
 
 *** Other Way to use the httpd conf file with httpd image is to mount local httpd.conf file to the httpd.conf file inside the container which helps to add multiple proxy urls with ease.
+
+Please view the document in RAW format, Due to formating issue
