@@ -9,7 +9,6 @@ This document will help you create and use a reverse-proxy container to  server 
 1) Download the docker file and httpd.conf file in the repo
 
 2) open the httpd.conf file and edit the virtualhost config as show below
-
 <VirtualHost *:80>
     ServerName www.example.co.in     # Replace example.co.in with URL on which the site as to be hosted
     DocumentRoot "/usr/local/apache2"
